@@ -4,7 +4,7 @@ import {
   Route 
 } from 'react-router-dom';
 import Navigation from './Navigation';
-import Signin from './SignIn';
+import Signin from './Signin';
 import Home from './Home';
 import * as routes from '../constants/routes';
 import withAuthentication from './withAuthentication';
