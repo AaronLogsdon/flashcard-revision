@@ -124,3 +124,23 @@ export default withRouter(SignInPage);
 export {
   SignInForm,
 };
+
+<Navbar color="inverse" light expand="md">
+ <LinkContainer to={routes.HOME}>
+       <NavbarBrand href="/">MyChemistry</NavbarBrand>
+ </LinkContainer>
+ <Collapse navbar>
+     <Nav className="ml-auto" navbar>
+         <LinkContainer to={routes.DASHBOARD}>
+           <NavItem>
+             <NavbarBrand href="/">Dashboard</NavbarBrand>
+           </NavItem>
+         </LinkContainer>
+         <LinkContainer to={routes.HOME}>
+           <NavItem>
+             <SignOutButton />
+           </NavItem>
+         </LinkContainer>
+     </Nav>
+ </Collapse>
+</Navbar>
