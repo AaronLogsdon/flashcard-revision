@@ -1,5 +1,7 @@
 HOSTING URL: https://react-firebase-authentic-99189.firebaseapp.com/
 
+Git repo: https://github.com/AaronLogsdon/flashcard-revision
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
