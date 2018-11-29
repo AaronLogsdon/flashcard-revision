@@ -1,7 +1,7 @@
 import React from 'react';
 import AuthUserContext from './AuthUserContext';
 import SignOutButton from './SignOut';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import * as routes from '../constants/routes';
 import { LinkContainer } from "react-router-bootstrap";
 
@@ -12,7 +12,7 @@ import {
   Nav,
   NavItem,
   NavLink
-} from 'reactstrap'
+} from 'reactstrap';
 
 
 const Navigation = ({authUser}) =>
