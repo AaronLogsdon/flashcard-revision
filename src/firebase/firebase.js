@@ -1,5 +1,6 @@
 import firebase from 'firebase/app';
-
+import 'firebase/auth';
+import 'firebase/database';
 const config = {
     apiKey: "AIzaSyAMzMQ7d9R3VySOCMBqvUncIPtMCQjPWpg",
     authDomain: "react-firebase-authentic-99189.firebaseapp.com",
