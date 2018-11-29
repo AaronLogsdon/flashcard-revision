@@ -12,7 +12,7 @@ import {
   Nav,
   NavItem,
   NavLink
-} from 'reactstrap';
+} from 'reactstrap'
 
 
 const Navigation = ({authUser}) =>
