@@ -117,6 +117,13 @@ class SignInForm extends Component {
   }
 }
 
+const SigninLink = () =>
+  <p>
+    <Link to={routes.SIGN_IN}>1</Link>
+  </p>
+
+export default withRouter(Game2);
+
 
 export default withRouter(SignInPage);
 
@@ -124,4 +131,6 @@ export default withRouter(SignInPage);
 export {
   SignInForm,
 };
+
+export {SigninLink};
 
