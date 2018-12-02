@@ -4,6 +4,7 @@ import { auth } from '../firebase';
 import * as routes from '../constants/routes';
 import { Col, Button, Form, FormGroup, Label, Input} from 'reactstrap';
 import { LinkContainer } from "react-router-bootstrap";
+import { Link } from 'react-router-dom';
 
 
 
@@ -117,10 +118,16 @@ class SignInForm extends Component {
   }
 }
 
+const SigninLink = () =>
+<p>
+  <Link to={routes.SIGN_IN}>Sign in</Link>
+</p>
+
 
 export default withRouter(SignInPage);
 
 
 export {
   SignInForm,
+  SigninLink
 };
