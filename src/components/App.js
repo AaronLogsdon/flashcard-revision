@@ -15,7 +15,6 @@ import Game1 from './Game1';
 import Game2 from './Game2';
 import Deck from './Deck';
 import View from './View';
-import { SigninLink } from './Signin';
 
 
 
@@ -35,9 +34,7 @@ const App = () =>
       <Route exact path={routes.VIEW} component={View} />
     </div>
 
-    <div>
-    <SigninLink/>
-    </div>
+   
   </Router>
 
 
