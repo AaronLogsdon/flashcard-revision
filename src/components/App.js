@@ -23,7 +23,6 @@ const App = () =>
     <div>
       <Navigation />
       <hr/>
-      <Route exact path={routes.VIEW} component={View} />
       <Route exact path={routes.SIGN_IN} component={Signin} />
       <Route exact path={routes.HOME} component={Home} />
       <Route exact path={routes.DASHBOARD} component={Dashboard} />
@@ -32,6 +31,7 @@ const App = () =>
       <Route exact path={routes.GAME1} component={Game1} />
       <Route exact path={routes.GAME2} component={Game2} />
       <Route exact path={routes.DECK} component={Deck} />
+      <Route exact path={routes.VIEW} component={View} />
     </div>
   </Router>
 
