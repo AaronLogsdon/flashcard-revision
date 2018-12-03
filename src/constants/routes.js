@@ -1,7 +1,7 @@
 export const SIGN_IN = '/';
 
 export const DASHBOARD = '/dashboard';
-=======
+
 
 export const HOME = '/home';
 export const TEST = '/test';
