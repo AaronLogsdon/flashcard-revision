@@ -30,12 +30,15 @@ const NavigationAuth = () => (
        <NavbarBrand href="/">Home</NavbarBrand>
  </LinkContainer>
  <Collapse navbar>
-     <Nav>
-         <LinkContainer to={routes.SIGN_IN}>
-           <NavItem>
-             <SignOutButton />
-           </NavItem>
-         </LinkContainer>
+    <Nav>
+    <LinkContainer to={routes.DASHBOARD}>
+       <NavbarBrand href="/">Dashboard</NavbarBrand>
+    </LinkContainer>
+     <LinkContainer to={routes.SIGN_IN}>
+        <NavItem>
+          <SignOutButton />
+        </NavItem>
+      </LinkContainer>
      </Nav>
  </Collapse>
 </Navbar>
