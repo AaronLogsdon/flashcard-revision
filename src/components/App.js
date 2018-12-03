@@ -33,8 +33,6 @@ const App = () =>
       <Route exact path={routes.DECK} component={Deck} />
       <Route exact path={routes.VIEW} component={View} />
     </div>
-
-   
   </Router>
 
 
