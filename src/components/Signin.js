@@ -3,10 +3,6 @@ import { withRouter } from 'react-router-dom';
 import { auth } from '../firebase';
 import * as routes from '../constants/routes';
 import { Col, Button, Form, FormGroup, Label, Input} from 'reactstrap';
-
-import { Link } from "react-router-bootstrap";
-=======
-import { LinkContainer } from "react-router-bootstrap";
 import { Link } from 'react-router-dom';
 
 
